@@ -67,7 +67,8 @@ class Style(BaseStyle):
             self.format_names('author'),
             self.format_title(e, 'title'),
             sentence [
-                tag('em') [field('journal')],
+                #tag('em') [field('journal')],
+                optional[ field('journal') ],
                 optional[ volume_and_pages ],
                 date],
             sentence [ optional_field('note') ],
