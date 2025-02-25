@@ -1,3 +1,7 @@
+Forked from <https://pybtex.org/>
+
+---
+
 BibTeX-compatible bibliography processor in Python
 ==================================================
 
@@ -10,7 +14,6 @@ Synopsis
     pybtex foo.aux
     latex foo.tex
     latex foo.tex
-
 
 Description
 -----------
@@ -37,7 +40,6 @@ The resulting bibliography may be output in one of the following formats
 - markdown
 
 - plain text
-
 
 See also
 --------
