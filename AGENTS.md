@@ -16,6 +16,3 @@
 
 * Wolfram
     * Prefer file-based execution with `WolframKernel -script <file.wl>`.
-
-* Lean
-    * Manage toolchains with `elan`.
